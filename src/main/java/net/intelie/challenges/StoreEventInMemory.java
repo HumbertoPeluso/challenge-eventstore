@@ -77,7 +77,7 @@ public class StoreEventInMemory implements EventStore {
                 i.remove();
             }
         }
-        //This condition is to check the last element of the list.
+        //This condition checks the last element of the list.
         if (!this.verified(i, type, startTime, endTime)) {
             i.remove();
         }
