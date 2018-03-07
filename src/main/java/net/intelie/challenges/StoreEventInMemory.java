@@ -54,7 +54,7 @@ public class StoreEventInMemory implements EventStore {
                 iterator.remove();
             }
         }
-        //This condition is to check the last element of the list.
+        //This condition checks the last element of the list.
         if (iterator.current().type().equals(type)) {
             iterator.remove();
         }
